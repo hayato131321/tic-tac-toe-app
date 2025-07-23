@@ -1,6 +1,6 @@
 # 三目並べアプリ（Tic Tac Toe）
 
-Reactを使用して作成した三目並べアプリです。  
+Reactの公式チュートリアルを学習する中で作成した三目並べアプリです。  
 「状態管理」「イベント処理」「履歴の管理」「打ち消し線表示」「削除モード」など、Reactの基本要素を意識して構成しています。
 
 ---
@@ -14,19 +14,16 @@ Reactを使用して作成した三目並べアプリです。
 
 ##  ローカルでの実行手順
 
-### 1. リポジトリをクローン
-下記コマンドで、GitHubにあるソースコード一式を自分のPCにコピーします。
-git clone https://github.com/hayato131321/tic-tac-toe-app.git
-cd tic-tac-toe-app
+### 1 ローカル環境での起動手順
+まずは、GitHubからリポジトリをクローンします。 
+git clone https://github.com/hayato131321/to-do-app.git cd to-do-app
 
+パッケージのインストール npm install を実行して、必要な依存パッケージをすべてインストールします。 npm install
 
-2. 必要なパッケージをインストール
-npm install
+開発サーバーの起動 npm run dev を実行すると、Vite のローカル開発サーバーが立ち上がります。 npm run dev
 
+ブラウザでアクセス 起動後、以下のURLにアクセスするとアプリケーションを確認できます：
 
-3. アプリを起動
-npm start
+http://localhost:5173
 
-または（Viteを使っている場合）：
-npm run dev
-ブラウザで http://localhost:3000 または 5173 にアクセスして動作を確認できます。
+※ Node.js および npm が事前にインストールされている必要があります。 未インストールの場合は、Node.js公式サイト よりインストールしてください。
