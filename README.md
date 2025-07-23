@@ -5,7 +5,7 @@ Reactを使用して作成した三目並べアプリです。
 
 ---
 
-## 🛠 使用技術
+## 使用技術
 
 - React (Vite or CRA)
 - JavaScript / HTML / CSS
