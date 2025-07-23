@@ -15,8 +15,7 @@ Reactを使用して作成した三目並べアプリです。
 ##  ローカルでの実行手順
 
 ### 1. リポジトリをクローン
-
-```bash
+下記コマンドで、GitHubにあるソースコード一式を自分のPCにコピーします。
 git clone https://github.com/hayato131321/tic-tac-toe-app.git
 cd tic-tac-toe-app
 
